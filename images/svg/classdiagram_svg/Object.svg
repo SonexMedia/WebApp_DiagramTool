@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="67.522px" height="41.265px" viewBox="0 0 67.522 41.265" enable-background="new 0 0 67.522 41.265" xml:space="preserve">
+<rect x="1" y="1" fill="none" stroke="#30302F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="65.522" height="39.265"/>
+<text transform="matrix(1 0 0 1 5.562 23.8691)" fill="#2F302F" font-family="'ArialMT'" font-size="6.1162">Attribute</text>
+<line fill="none" stroke="#30312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="66.354" y1="16.044" x2="2.215" y2="16.044"/>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 24.7534 9.9229)" fill="#2F302F" font-family="'ArialMT'" font-size="6.1162">Object</text>
+	</g>
+	<rect x="24.803" y="10.81" fill="#2F302F" width="17.967" height="0.446"/>
+</g>
+<g id="connector">
+	<path fill="#FFFFFF" stroke="#000000" d="M1.08,1.667"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M0.969,15.889"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M1.302,40"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M34.08,40.333"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M33.858,16"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M66.302,40"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M66.636,16"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M66.413,1.444"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M35.413,1.111"/>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="100px" viewBox="0 0 120 100" enable-background="new 0 0 120 100" xml:space="preserve">
+<g>
+	<rect x="0" y="0" fill="none" stroke="#30312F" stroke-linecap="round" stroke-linejoin="round" width="120.017" height="99.94"/>
+	<line fill="none" stroke="#31312F" stroke-dasharray="12,5" x1="0" y1="45.209" x2="120.016" y2="45.335"/>
+	<line fill="none" stroke="#31312F" x1="0" y1="17.933" x2="29.855" y2="17.807"/>
+	<line fill="none" stroke="#31312F" stroke-linecap="round" x1="29.855" y1="17.807" x2="35.365" y2="11.677"/>
+	<line fill="none" stroke="#31312F" x1="35.365" y1="11.677" x2="35.365" y2="0"/>
+	<text transform="matrix(0.9494 0 0 1 8.7533 16.3606)" fill="#30312F" font-family="'ArialMT'" font-size="14">alt</text>
+	<g>
+		<text transform="matrix(0.9494 0 0 1 7.6704 42.0579)" fill="#30312F" font-family="'ArialMT'" font-size="14">[if]</text>
+	</g>
+	<g>
+		<text transform="matrix(0.9494 0 0 1 3.6703 64.551)" fill="#30312F" font-family="'ArialMT'" font-size="14">[else]</text>
+	</g>
+</g>
+<g id="connector">
+	<path fill="none" stroke="#31312F" stroke-linecap="round" d="M120.391,48.338"/>
+	<path fill="none" stroke="#31312F" stroke-linecap="round" d="M0,48.212"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M0.237,0.594"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M60.183,0.122"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M119.862,0.122"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M119.862,99.704"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M60.388,99.94"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M0.237,100.179"/>
+</g>
+</svg>

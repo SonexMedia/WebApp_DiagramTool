@@ -1,0 +1,135 @@
+[
+	{
+		id: 'AcceptEventAction',
+		title: "AcceptEventAction",
+		icon: './images/icons/activity_svg/AcceptEventAction.png',
+		svg: './images/svg/activity_svg/AcceptEventAction.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'AcceptTimeEventAction',
+		title: "AcceptTimeEventAction",
+		icon: './images/icons/activity_svg/AcceptTimeEventAction.png',
+		svg: './images/svg/activity_svg/AcceptTimeEventAction.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Action',
+		title: "Action",
+		icon: './images/icons/activity_svg/Action.png',
+		svg: './images/svg/activity_svg/Action.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Activity',
+		title: "Activity",
+		icon: './images/icons/activity_svg/Activity.png',
+		svg: './images/svg/activity_svg/Activity.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'ActivityfinalNode',
+		title: "ActivityfinalNode",
+		icon: './images/icons/activity_svg/ActivityfinalNode.png',
+		svg: './images/svg/activity_svg/ActivityfinalNode.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'ControlFlow',
+		title: "ControlFlow",
+		icon: './images/icons/activity_svg/ControlFlow.png',
+		svg: './images/svg/activity_svg/ControlFlow.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Decision',
+		title: "Decision",
+		icon: './images/icons/activity_svg/Decision.png',
+		svg: './images/svg/activity_svg/Decision.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'ExceptionFlow',
+		title: "ExceptionFlow",
+		icon: './images/icons/activity_svg/ExceptionFlow.png',
+		svg: './images/svg/activity_svg/ExceptionFlow.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'FlowFinalNode',
+		title: "FlowFinalNode",
+		icon: './images/icons/activity_svg/FlowFinalNode.png',
+		svg: './images/svg/activity_svg/FlowFinalNode.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Frame',
+		title: "Frame",
+		icon: './images/icons/activity_svg/Frame.png',
+		svg: './images/svg/activity_svg/Frame.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'HorizontalSynchronizationBar',
+		title: "HorizontalSynchronizationBar",
+		icon: './images/icons/activity_svg/HorizontalSynchronizationBar.png',
+		svg: './images/svg/activity_svg/HorizontalSynchronizationBar.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'InitialNode',
+		title: "InitialNode",
+		icon: './images/icons/activity_svg/InitialNode.png',
+		svg: './images/svg/activity_svg/InitialNode.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'JumpNode',
+		title: "JumpNode",
+		icon: './images/icons/activity_svg/JumpNode.png',
+		svg: './images/svg/activity_svg/JumpNode.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'ObjectFlow',
+		title: "ObjectFlow",
+		icon: './images/icons/activity_svg/ObjectFlow.png',
+		svg: './images/svg/activity_svg/ObjectFlow.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'ObjectName',
+		title: "ObjectName",
+		icon: './images/icons/activity_svg/ObjectName.png',
+		svg: './images/svg/activity_svg/ObjectName.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Region',
+		title: "Region",
+		icon: './images/icons/activity_svg/Region.png',
+		svg: './images/svg/activity_svg/Region.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'SendSignalAction',
+		title: "SendSignalAction",
+		icon: './images/icons/activity_svg/SendSignalAction.png',
+		svg: './images/svg/activity_svg/SendSignalAction.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'StructuredNode',
+		title: "StructuredNode",
+		icon: './images/icons/activity_svg/StructuredNode.png',
+		svg: './images/svg/activity_svg/StructuredNode.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'VerticalSynchronizationBar',
+		title: "VerticalSynchronizationBar",
+		icon: './images/icons/activity_svg/VerticalSynchronizationBar.png',
+		svg: './images/svg/activity_svg/VerticalSynchronizationBar.svg',
+		class: 'CLASS_BASIC'
+	}
+]

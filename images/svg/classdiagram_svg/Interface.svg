@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="67.076px" height="64.918px" viewBox="0 0 67.076 64.918" enable-background="new 0 0 67.076 64.918" xml:space="preserve">
+<rect x="1" y="1" fill="none" stroke="#30312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="65.076" height="62.918"/>
+<line fill="none" stroke="#30312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="65.323" y1="41.147" x2="1.147" y2="41.192"/>
+<line fill="none" stroke="#30312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="65.323" y1="24.002" x2="1.147" y2="24.047"/>
+<g>
+	<text transform="matrix(1 0 0 1 5.4897 52.2056)" fill="#2F302F" font-family="'ArialMT'" font-size="6.5964">Method</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 5.4897 34.645)" fill="#2F302F" font-family="'ArialMT'" font-size="6.5964">Attribute</text>
+</g>
+<text transform="matrix(1 0 0 1 26.3228 15.688)" fill="#2F302F" font-family="'Arial-BoldMT'" font-size="6">Class</text>
+<g>
+	<text transform="matrix(1 0 0 1 15.8149 9.2715)" fill="#2F302F" font-family="'ArialMT'" font-size="6">&lt;&lt;interface&gt;&gt;</text>
+</g>
+<g id="connector">
+	<path fill="#FFFFFF" stroke="#000000" d="M1.192,1.217"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M1.067,24.092"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M31.942,23.717"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M1.067,41.092"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M32.817,41.092"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M1.067,63.717"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M34.192,63.717"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M65.817,63.717"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M66.067,40.967"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M65.942,23.967"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M65.692,1.467"/>
+	<path fill="#FFFFFF" stroke="#000000" d="M34.942,0.967"/>
+</g>
+</svg>

@@ -1,0 +1,121 @@
+[
+	{
+		id: 'Aggregate',
+		title: "Aggregate",
+		icon: './images/icons/classdiagram_svg/Aggregate.png',
+		svg: './images/svg/classdiagram_svg/Aggregate.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Associate',
+		title: "Associate",
+		icon: './images/icons/classdiagram_svg/Associate.png',
+		svg: './images/svg/classdiagram_svg/Associate.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Binding',
+		title: "Binding",
+		icon: './images/icons/classdiagram_svg/Binding.png',
+		svg: './images/svg/classdiagram_svg/Binding.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Class',
+		title: "Class",
+		icon: './images/icons/classdiagram_svg/Class.png',
+		svg: './images/svg/classdiagram_svg/Class.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Compose',
+		title: "Compose",
+		icon: './images/icons/classdiagram_svg/Compose.png',
+		svg: './images/svg/classdiagram_svg/Compose.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Datatype',
+		title: "Datatype",
+		icon: './images/icons/classdiagram_svg/Datatype.png',
+		svg: './images/svg/classdiagram_svg/Datatype.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Enumeration',
+		title: "Enumeration",
+		icon: './images/icons/classdiagram_svg/Enumeration.png',
+		svg: './images/svg/classdiagram_svg/Enumeration.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Generalize',
+		title: "Generalize",
+		icon: './images/icons/classdiagram_svg/Generalize.png',
+		svg: './images/svg/classdiagram_svg/Generalize.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Import',
+		title: "Import",
+		icon: './images/icons/classdiagram_svg/Import.png',
+		svg: './images/svg/classdiagram_svg/Import.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Interface',
+		title: "Interface",
+		icon: './images/icons/classdiagram_svg/Interface.png',
+		svg: './images/svg/classdiagram_svg/Interface.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Merge',
+		title: "Merge",
+		icon: './images/icons/classdiagram_svg/Merge.png',
+		svg: './images/svg/classdiagram_svg/Merge.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Object',
+		title: "Object",
+		icon: './images/icons/classdiagram_svg/Object.png',
+		svg: './images/svg/classdiagram_svg/Object.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Package',
+		title: "Package",
+		icon: './images/icons/classdiagram_svg/Package.png',
+		svg: './images/svg/classdiagram_svg/Package.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Primitive',
+		title: "Primitive",
+		icon: './images/icons/classdiagram_svg/Primitive.png',
+		svg: './images/svg/classdiagram_svg/Primitive.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Realization',
+		title: "Realization",
+		icon: './images/icons/classdiagram_svg/Realization.png',
+		svg: './images/svg/classdiagram_svg/Realization.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Stereotype',
+		title: "Stereotype",
+		icon: './images/icons/classdiagram_svg/Stereotype.png',
+		svg: './images/svg/classdiagram_svg/Stereotype.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Usage',
+		title: "Usage",
+		icon: './images/icons/classdiagram_svg/Usage.png',
+		svg: './images/svg/classdiagram_svg/Usage.svg',
+		class: 'CLASS_BASIC'
+	}
+]

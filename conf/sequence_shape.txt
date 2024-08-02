@@ -1,0 +1,165 @@
+[
+	{
+		id: "BoundaryLifeLine",
+		title: "BoundaryLifeLine",
+		icon: './images/icons/sequence_svg/BoundaryLifeLine.png',
+		svg: './images/svg/sequence_svg/BoundaryLifeLine.svg',
+		class: 'CLASS_BOUNDARYLIFELINE'
+	},
+	{
+		id: "ControlLifeLine",
+		title: "ControlLifeLine",
+		icon: './images/icons/sequence_svg/ControlLifeLine.png',
+		svg: './images/svg/sequence_svg/ControlLifeLine.svg',
+		class: 'CLASS_CONTROLLIFELINE'
+	},
+	{
+		id: "EntityLifeLine",
+		title: "EntityLifeLine",
+		icon: './images/icons/sequence_svg/EntityLifeLine.png',
+		svg: './images/svg/sequence_svg/EntityLifeLine.svg',
+		class: 'CLASS_ENTITYLIFELINE'
+	},
+	{
+		id: "LifeLine",
+		title: "LifeLine",
+		icon: './images/icons/sequence_svg/LifeLine.png',
+		svg: './images/svg/sequence_svg/LifeLine.svg',
+		class: 'CLASS_LIFELINE'
+	},
+	{
+		id: 'Activation',
+		title: "Activation",
+		icon: './images/icons/sequence_svg/Activation.png',
+		svg: './images/svg/sequence_svg/Activation.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: "AlternativeFragment",
+		title: "AlternativeFragment",
+		icon: './images/icons/sequence_svg/AlternativeFragment.png',
+		svg: './images/svg/sequence_svg/AlternativeFragment.svg',
+		class: 'CLASS_ALTERFRAGMENT'
+	},
+	{
+		id: "Break",
+		title: "Break",
+		icon: './images/icons/sequence_svg/Break.png',
+		svg: './images/svg/sequence_svg/Break.svg',
+		class: 'CLASS_BREAK'
+	},
+	{
+		id: "Frame",
+		title: "Frame",
+		icon: './images/icons/sequence_svg/Frame.png',
+		svg: './images/svg/sequence_svg/Frame.svg',
+		class: 'CLASS_BREAK'
+	},
+	{
+		id: "LoopFragment",
+		title: "LoopFragment",
+		icon: './images/icons/sequence_svg/LoopFragment.png',
+		svg: './images/svg/sequence_svg/LoopFragment.svg',
+		class: 'CLASS_BREAK'
+	},
+	{
+		id: "Parallel",
+		title: "Parallel",
+		icon: './images/icons/sequence_svg/Parallel.png',
+		svg: './images/svg/sequence_svg/Parallel.svg',
+		class: 'CLASS_ALTERFRAGMENT'
+	},
+	{
+		id: "ReferenceFragment",
+		title: "ReferenceFragment",
+		icon: './images/icons/sequence_svg/ReferenceFragment.png',
+		svg: './images/svg/sequence_svg/ReferenceFragment.svg',
+		class: 'CLASS_BREAK'
+	},
+	{
+		id: "Destruction",
+		title: "Destruction",
+		icon: './images/icons/sequence_svg/Destruction.png',
+		svg: './images/svg/sequence_svg/Destruction.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: "Continuation",
+		title: "Continuation",
+		icon: './images/icons/sequence_svg/Continuation.png',
+		svg: './images/svg/sequence_svg/Continuation.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: "Note",
+		title: "Note",
+		icon: './images/icons/sequence_svg/Note.png',
+		svg: './images/svg/sequence_svg/Note.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: "RecursiveMessage",
+		title: "RecursiveMessage",
+		icon: './images/icons/sequence_svg/RecursiveMessage.png',
+		svg: './images/svg/sequence_svg/RecursiveMessage.svg',
+		class: 'CLASS_RECURSIVEMESSAGE'
+	},
+	{
+		id: "Constraint",
+		title: "Constraint",
+		icon: './images/icons/sequence_svg/Constraint.png',
+		svg: './images/svg/sequence_svg/Constraint.svg',
+		class: 'CLASS_CONSTRAINT'
+	},
+	{
+		id: "AnchorLine",
+		title: "AnchorLine",
+		icon: './images/icons/sequence_svg/AnchorLine.png',
+		svg: './images/svg/sequence_svg/AnchorLine.svg',
+		class: 'CLASS_ANCHORLINE'
+	},
+	{
+		id: "AsyncMessage",
+		title: "AsyncMessage",
+		icon: './images/icons/sequence_svg/AsyncMessage.png',
+		svg: './images/svg/sequence_svg/AsyncMessage.svg',
+		class: 'CLASS_ASYNCMESSAGE'
+	},
+	{
+		id: "InitializeMessage",
+		title: "InitializeMessage",
+		icon: './images/icons/sequence_svg/InitializeMessage.png',
+		svg: './images/svg/sequence_svg/InitializeMessage.svg',
+		class: 'CLASS_INITIALIZEMESSAGE'
+	},
+	{
+		id: "ReturnMessage",
+		title: "ReturnMessage",
+		icon: './images/icons/sequence_svg/ReturnMessage.png',
+		svg: './images/svg/sequence_svg/ReturnMessage.svg',
+		class: 'CLASS_RETURNMESSAGE'
+	},
+	{
+		id: "SyncMessage",
+		title: "SyncMessage",
+		icon: './images/icons/sequence_svg/SyncMessage.png',
+		svg: './images/svg/sequence_svg/SyncMessage.svg',
+		class: 'CLASS_SYNCMESSAGE'
+	},
+
+
+	{
+		id: "FoundMessage",
+		title: "FoundMessage",
+		icon: './images/icons/sequence_svg/FoundMessage.png',
+		svg: './images/svg/sequence_svg/FoundMessage.svg',
+		class: 'CLASS_FOUNDMESSAGE'
+	},
+	{
+		id: "LostMessage",
+		title: "LostMessage",
+		icon: './images/icons/sequence_svg/LostMessage.png',
+		svg: './images/svg/sequence_svg/LostMessage.svg',
+		class: 'CLASS_LOSTMESSAGE'
+	}
+]

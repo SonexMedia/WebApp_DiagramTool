@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="65.983px" height="65.999px" viewBox="0 0 65.983 65.999" enable-background="new 0 0 65.983 65.999" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#31312F" d="M32.984,2c7.933,0,15.867,3.026,21.919,9.079c12.107,12.107,12.107,31.734,0,43.841
+			c-6.053,6.053-13.986,9.079-21.919,9.079s-15.866-3.026-21.919-9.079C-1.042,42.813-1.042,23.186,11.063,11.079
+			C17.117,5.026,25.05,2,32.984,2 M32.984,0C24.169,0,15.882,3.432,9.649,9.665C-3.217,22.532-3.216,43.468,9.65,56.334
+			c6.232,6.232,14.52,9.665,23.333,9.665c8.815,0,17.101-3.433,23.333-9.665c6.233-6.232,9.666-14.52,9.666-23.334
+			s-3.433-17.102-9.666-23.335C50.085,3.433,41.798,0,32.984,0L32.984,0z"/>
+	</g>
+</g>
+<line fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="10.789" y1="10.805" x2="55.179" y2="55.194"/>
+<line fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="55.179" y1="10.805" x2="10.789" y2="55.194"/>
+<g id="connector">
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M10.648,10.504"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M33.315,0.837"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M55.648,10.393"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M64.981,33.059"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M0.871,31.17"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M10.204,55.504"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M33.315,65.17"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M55.76,55.726"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21.537,21.395"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M32.981,32.95"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M43.76,22.395"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M44.426,44.395"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21.981,43.839"/>
+</g>
+</svg>

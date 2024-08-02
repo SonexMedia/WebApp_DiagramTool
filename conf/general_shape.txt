@@ -1,0 +1,79 @@
+[
+	{
+		id: 'Actor',
+		title: "Actor",
+		icon: './images/icons/basic_svg/Actor.png',
+		svg: './images/svg/basic_svg/Actor.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Circle',
+		title: "Circle",
+		icon: './images/icons/basic_svg/Circle.png',
+		svg: './images/svg/basic_svg/Circle.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Cloud',
+		title: "Cloud",
+		icon: './images/icons/basic_svg/Cloud.png',
+		svg: './images/svg/basic_svg/Cloud.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Cyclinder',
+		title: "Cyclinder",
+		icon: './images/icons/basic_svg/Cyclinder.png',
+		svg: './images/svg/basic_svg/Cyclinder.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Octagon',
+		title: "Octagon",
+		icon: './images/icons/basic_svg/Octagon.png',
+		svg: './images/svg/basic_svg/Octagon.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Pentagon',
+		title: "Pentagon",
+		icon: './images/icons/basic_svg/Pentagon.png',
+		svg: './images/svg/basic_svg/Pentagon.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Rectangle',
+		title: "Rectangle",
+		icon: './images/icons/basic_svg/Rectangle.png',
+		svg: './images/svg/basic_svg/Rectangle.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'RightTriangle',
+		title: "RightTriangle",
+		icon: './images/icons/basic_svg/RightTriangle.png',
+		svg: './images/svg/basic_svg/RightTriangle.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Square',
+		title: "Square",
+		icon: './images/icons/basic_svg/Square.png',
+		svg: './images/svg/basic_svg/Square.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Star',
+		title: "Star",
+		icon: './images/icons/basic_svg/Star.png',
+		svg: './images/svg/basic_svg/Star.svg',
+		class: 'CLASS_BASIC'
+	},
+	{
+		id: 'Triangle',
+		title: "Triangle",
+		icon: './images/icons/basic_svg/Triangle.png',
+		svg: './images/svg/basic_svg/Triangle.svg',
+		class: 'CLASS_BASIC'
+	}
+]

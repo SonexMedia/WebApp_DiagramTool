@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="66px" height="65.999px" viewBox="0 0 66 65.999" enable-background="new 0 0 66 65.999" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#31312F" d="M33,2c17.122,0.001,31,13.879,31,31c0,17.12-13.879,30.999-30.999,30.999C15.88,63.999,2,50.12,2,33
+			C2,15.879,15.879,2.001,33,2 M33,0L33,0C14.804,0.001,0,14.805,0,33c0,18.195,14.805,32.999,33.001,32.999
+			C51.196,65.999,66,51.195,66,33S51.196,0.001,33,0L33,0z"/>
+	</g>
+</g>
+<line fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="1.612" y1="33" x2="64.389" y2="32.999"/>
+<line fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="33" y1="1.611" x2="33" y2="64.388"/>
+<g id="connector">
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M0.887,33.17"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9.22,11.504"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M32.887,1.393"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M56.998,11.948"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M65.108,33.281"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M54.775,56.726"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M32.887,64.948"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9.109,53.948"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M16.887,33.059"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M33.109,33.059"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M32.887,49.726"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M48.442,33.059"/>
+	<path fill="none" stroke="#31312F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M32.887,16.059"/>
+</g>
+</svg>

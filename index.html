@@ -1,0 +1,506 @@
+<html>
+<head>
+	<link rel="shortcut icon" type="image/png" href="fulcra.png">
+	<title>Fulcra</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/lib/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery-ui.js"></script>
+    
+    <script type="text/javascript" src="js/lib/jquery.dd.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/msdropdown-dd.css" />
+    <script type="text/javascript" src="js/lib/fabric-1.4.3-custom-ctrl.js"></script>
+    <script type="text/javascript" src="js/lib/fabricjs_viewport.js"></script>
+    <script type="text/javascript" src="js/lib/progressbar.min.js"></script>
+    <script type="text/javascript" src="js/lib/extend.min.js"></script>
+    <script type="text/javascript" src="js/lib/ddsmoothmenu.js"></script>
+    <script type="text/javascript" src="js/lib/colpick.js"></script>
+    <script type="text/javascript" src="js/lib/colpick.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/lib/colpick.css" />
+    
+    <script type="text/javascript" src="js/myevent.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/text.js"></script>
+    <script type="text/javascript" src="js/line.js"></script>
+    <script type="text/javascript" src="js/connector.js"></script>
+    <script type="text/javascript" src="js/connector-line.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/ruler.js"></script>
+    <script type="text/javascript" src="js/layer.js"></script>
+
+    <!-- js for shape -->
+    <script type="text/javascript" src="js/shape/basic.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/AlternativeFragment.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/BoundaryLifeLine.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/Break.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/ControlLifeLine.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/EntityLifeLine.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/LifeLine.js"></script>
+    
+    <script type="text/javascript" src="js/shape/sequence/Constraint.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/AnchorLine.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/AsyncMessage.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/FoundMessage.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/InitializeMessage.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/LostMessage.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/RecursiveMessage.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/ReturnMessage.js"></script>
+    <script type="text/javascript" src="js/shape/sequence/SyncMessage.js"></script>
+
+    <!-- end -->
+    
+    <script type="text/javascript" src="js/fulcra.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="menu-area">
+    	<div id="logo-bar"><img src="images/logo.png" class="logo-item"></div>
+        <ul class="menu-bar">
+        	<li class="menu-item"><span>File</span></li>
+        	<li class="menu-item"><span>Home</span></li>
+        	<li class="menu-item"><span>Process</span></li>
+        	<li class="menu-item"><span>Help</span></li>
+        </ul>
+        <ul class="button-bar">
+            <li id="btn_login"><span>LOGIN</span></li>          
+            <li id="btn_signup"><span>Sign Up</span></li>
+        </ul>
+    </div>
+    <div id="dropdown_list">
+        <ul>
+            <li><img src="images/new_theme/icon_new.png"><h3>New123123</h3></li>
+            <li><h3>Save111111</h3></li>
+            <li><h3>Load</h3></li>
+            <li>
+                <h3 class="expand_h3">Canvas Size</h3>
+                <ul class="sub_menu">
+                    <li><h5>A3</h5></li>
+                    <li><h5>A4</h5></li>
+                    <li><h5>A5</h5></li>
+                    <li><h5>B5</h5></li>
+                </ul>
+            </li>
+            <li>
+                <h3 class="expand_h3">Document Orientation</h3>
+                <ul class="sub_menu">
+                    <li><h5>Landscape</h5></li>
+                    <li><h5>Potrait</h5></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="contrl-area">
+        <ul>
+            <li id="btn_copy"><img src="images/new_theme/icon_copy.png"></li>
+            <li id="btn_paste"><img src="images/new_theme/icon_paste.png"></li>
+            <li id="btn_cut"><img src="images/new_theme/icon_cut.png"></li>
+            <li id="select-delete"><img src="images/new_theme/icon_recycle.png"></li>
+            <li id="btn-undo"><img src="images/new_theme/icon_undo.png"></li>
+            <li id="btn-redo"><img src="images/new_theme/icon_redo.png"></li>
+            <li class="li-split">&nbsp;</li>
+            <li><img src="images/new_theme/icon_bold.png"></li>
+            <li><img src="images/new_theme/icon_italic.png"></li>
+            <li><img src="images/new_theme/icon_underline.png"></li>
+            <li class="li-split">&nbsp;</li>
+            <li id="menu-font">
+                <section class="self-select">
+                    <h5>Font</h5>
+                    <ul class="drop-menu">
+                        <li>Times New Roman</li>
+                        <li>Arial</li>
+                        <li>Arial Black</li>
+                        <li>Impact</li>
+                        <li>Tahoma</li>
+                        <li>Verdana</li>
+                    </ul>
+                </section>
+            </li>
+            <li id="menu-fontsize">
+                <section class="self-select">
+                    <h5>Size</h5>
+                    <ul class="drop-menu">
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>20</li>
+                        <li>25</li>
+                        <li>30</li>
+                    </ul>
+                </section>
+            </li>
+            <li id="menu-fontcolor">
+                <section class="self-select">
+                    <h5>
+                        <p><img src="images/letter_small.png"></p>
+                        <p class="bg-color" style="background-color:orange"></p>
+                    </h5>
+                    <ul class="drop-menu">
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>20</li>
+                        <li>25</li>
+                        <li>30</li>
+                    </ul>
+                </section>
+            </li>
+            <li class="li-split">&nbsp;</li>
+            <li id="menu-size">
+                <section class="self-select">
+                    <h5>100%</h5>
+                    <ul class="drop-menu">
+                        <li>100%</li>
+                        <li>125%</li>
+                        <li>150%</li>
+                    </ul>
+                </section>
+            </li>
+            <li class="li-split">&nbsp;</li>
+            <li><img src="images/new_theme/icon_cursor.png"></li>
+            <li><img src="images/new_theme/icon_link.png"></li>
+            <li><img src="images/new_theme/icon_line.png"></li>
+            <li class="li-split">&nbsp;</li>
+            <li id="btn_group"><img src="images/new_theme/icon_group.png"></li>
+            <li id="btn_ungroup"><img src="images/new_theme/icon_ungroup.png"></li>
+            <li class="li-split">&nbsp;</li>
+            <li id="btn_lock"><img src="images/new_theme/icon_lock.png"></li>
+            <li id="btn_unlock"><img src="images/new_theme/icon_unlock.png"></li>
+            <li class="li-split">&nbsp;</li>
+            <li id="select-movefront"><img src="images/new_theme/icon_layerup.png"></li>
+            <li id="select-moveup"><img src="images/new_theme/icon_layercenter.png"></li>
+            <li id="select-moveback"><img src="images/new_theme/icon_layerback.png"></li>
+            <li><img src="images/new_theme/icon_align.png"></li>
+            <li class="li-split">&nbsp;</li>
+            <li><img src="images/new_theme/icon_layering.png"></li>
+            <li class="li-split">&nbsp;</li>
+            <li><img src="images/new_theme/icon_users.png"></li>
+            <li id="menu-shapes1">
+                <section class="self-select">
+                    <h5><img src="images/icon_shape1.png"></h5>
+                    <ul class="drop-menu">
+                        <li><img src="images/icon_shape1.png"></li>
+                        <li><img src="images/icon_shape1.png"></li>
+                    </ul>
+                </section>
+            </li>
+            <li class="li-split">&nbsp;</li>
+            <li id="menu-shapes2">
+                <section class="self-select">
+                    <h5><img src="images/icon_shape2.png"></h5>
+                    <ul class="drop-menu">
+                        <li><img src="images/icon_shape2.png"></li>
+                        <li><img src="images/icon_shape2.png"></li>
+                    </ul>
+                </section>
+            </li>
+            <li class="li-split">&nbsp;</li>
+            <li id="menu-shapes3">
+                <section class="self-select">
+                    <h5><img src="images/icon_shape3.png"></h5>
+                    <ul class="drop-menu">
+                        <li><img src="images/icon_shape3.png"></li>
+                        <li><img src="images/icon_shape3.png"></li>
+                    </ul>
+                </section>
+            </li>
+            <li class="li-split">&nbsp;</li>
+            <li id="menu-shapes4">
+                <section class="self-select">
+                    <h5><img src="images/icon_shape4.png"></h5>
+                    <ul class="drop-menu">
+                        <li><img src="images/icon_shape4.png"></li>
+                        <li><img src="images/icon_shape4.png"></li>
+                    </ul>
+                </section>
+            </li>
+            <li class="li-split">&nbsp;</li>
+            <li><img src="images/new_theme/icon_char.png"></li>
+            <li class="li-split">&nbsp;</li>
+            <li class="li-small" id="btn-align-top"><img src="images/btn_list1.png"></li>
+            <li class="li-small" id="btn-align-middle"><img src="images/btn_list2.png"></li>
+            <li class="li-small" id="btn-align-bottom"><img src="images/btn_list3.png"></li>
+            <li class="li-small" id="btn-align-left"><img src="images/btn_list4.png"></li>
+            <li class="li-small" id="btn-align-center"><img src="images/btn_list5.png"></li>
+            <li class="li-small" id="btn-align-right"><img src="images/btn_list6.png"></li>
+            <li class="li-small" id="btn-align-"><img src="images/btn_list7.png"></li>
+            <li class="li-small"><img src="images/btn_list8.png"></li>
+            <li class="clear_both"></li>
+        </ul>
+    </div>
+    <div id="main-area">
+    	<div id="object-bar">
+        	<div class="container">
+            	<div class="uml_header">
+                	<img src="images/new_theme/icon_uml.png">
+                    <h3>UML</h3>
+                </div>
+                <div class="object-contain">
+                	<div class="model-contain">
+                    	<!-- added html from javascript code -->
+                    </div>
+                    <p id="version_info">Version 3.2</p>
+                </div>
+                <div class="left-side-button"><img src="images/left-side-button.png"></div>
+            </div>
+        </div>
+        <div id="information_box"><h3>Successfuly Saved!</h3></div>
+        <div class="draw-container">
+            <div id="draw-contain">
+                <div id="ruler_board">
+                    <div id="ruler_gap"></div>
+                    <canvas id="canvas_h_ruler" width="1000" height="100"></canvas>
+                    <canvas id="canvas_v_ruler" width="1000" height="100"></canvas>
+                </div>
+                <div id="draw-board">
+                    <canvas id="canvas_stage" width="2000" height="1000"></canvas>
+                </div>
+                <div id="draw-content-properties">
+                	<div id="properties-button">
+                    	<div class="item left-item" id="button-line"><img src="images/line_icon.png"/></div>
+                    	<div class="item left-item" id="button-shape"><img src="images/shape_icon.png"/></div>
+                    	<div class="item right-item" id="button-text"><img src="images/text_icon.png"/></div>
+                    </div>
+                    
+                    <div id="properties-controls">
+                        <div class="tab" id="line-tab">
+                            <div class="tab-title"><img src="images/line_icon.png" /></div>
+                            <div class="content">
+                            	<div class="line-point drop-menu" id="left-point">
+                                	<div class="selected">
+                                    	<img src="images/point-none.png" class="shape-icon" />
+                                    	<img src="images/drop_down.png" class="drop-icon" />
+                                    </div>
+                                	<ul class="menu-contents">
+                                    	<li><img src="images/point-none.png" class="shape-icon" id="none" /></li>
+                                    	<li><img src="images/point-left-arrow.png" class="shape-icon" id="arrow" /></li>
+                                    	<li><img src="images/point-left-triangle-fill.png" class="shape-icon" id="triangle-fill" /></li>
+                                    	<li><img src="images/point-left-triangle.png" class="shape-icon" id="triangle" /></li>
+                                    	<li><img src="images/point-left-circle-fill.png" class="shape-icon" id="circle-fill" /></li>
+                                    </ul>
+                                </div>
+                            	<div class="line-point drop-menu" id="center-point">
+                                	<div class="selected">
+                                    	<img src="images/point-none.png" class="shape-icon" />
+                                    	<img src="images/drop_down.png" class="drop-icon" />
+                                    </div>
+                                	<ul class="menu-contents">
+                                    	<li><img src="images/point-none.png" class="shape-icon" id="type-0" /></li>
+                                    	<li><img src="images/line-type01.png" class="shape-icon" id="type-1" /></li>
+                                    	<li><img src="images/line-type02.png" class="shape-icon" id="type-2" /></li>
+                                    	<li><img src="images/line-type03.png" class="shape-icon" id="type-3" /></li>
+                                    </ul>
+                                </div>
+                            	<div class="line-point drop-menu" id="right-point">
+                                	<div class="selected">
+                                    	<img src="images/point-none.png" class="shape-icon" />
+                                    	<img src="images/drop_down.png" class="drop-icon" />
+                                    </div>
+                                	<ul class="menu-contents">
+                                    	<li><img src="images/point-none.png" class="shape-icon" id="none" /></li>
+                                    	<li><img src="images/point-right-arrow.png" class="shape-icon" id="arrow" /></li>
+                                    	<li><img src="images/point-right-triangle-fill.png" class="shape-icon" id="triangle-fill" /></li>
+                                    	<li><img src="images/point-right-triangle.png" class="shape-icon" id="triangle" /></li>
+                                    	<li><img src="images/point-right-circle-fill.png" class="shape-icon" id="circle-fill" /></li>
+                                    </ul>
+                                </div>
+                            	<div class="line-point drop-menu" id="line-width">
+                                	<div class="selected">
+                                    	<img src="images/line-width-01.png" class="shape-icon" />
+                                    	<img src="images/drop_down.png" class="drop-icon" />
+                                    </div>
+                                	<ul class="menu-contents">
+                                    	<li><img src="images/line-width-01.png" class="shape-icon" id="line-width-1" /></li>
+                                    	<li><img src="images/line-width-02.png" class="shape-icon" id="line-width-2" /></li>
+                                    	<li><img src="images/line-width-03.png" class="shape-icon" id="line-width-3" /></li>
+                                    	<li><img src="images/line-width-04.png" class="shape-icon" id="line-width-4" /></li>
+                                    	<li><img src="images/line-width-05.png" class="shape-icon" id="line-width-5" /></li>
+                                    </ul>
+                                </div>
+                            	<div class="line-point drop-menu" id="line-style">
+                                	<div class="selected">
+                                    	<img src="images/line-style01.png" class="shape-icon" />
+                                    	<img src="images/drop_down.png" class="drop-icon" />
+                                    </div>
+                                	<ul class="menu-contents">
+                                    	<li><img src="images/line-style01.png" class="shape-icon" id="style-0" /></li>
+                                    	<li><img src="images/line-style02.png" class="shape-icon" id="style-1" /></li>
+                                    	<li><img src="images/line-style03.png" class="shape-icon" id="style-2" /></li>
+                                    	<li><img src="images/line-style04.png" class="shape-icon" id="style-3" /></li>
+                                    </ul>
+                                </div>
+                                <button class="picker" id="line-color">
+                                	<div class="selected-color">
+                                    	<div class="displayed-color"></div>
+                                    	<img src="images/drop_down.png" class="drop-icon" />
+                                    </div>
+                                 </button>
+                            </div>
+                        </div>
+                        
+                        <div class="tab" id="text-tab">
+                            <div class="tab-title"><img src="images/text_icon.png" /></div>
+                            <div class="content">
+                            	<div class="button-type first-row" id="text-bold"><img src="images/tool-bold.png" /></div>
+                            	<div class="button-type" id="text-italic"><img src="images/tool-italic.png" /></div>
+                            	<div class="button-type text-decoration" id="text-center"><img src="images/tool-center.png" /></div>
+                            	<div class="button-type text-decoration" id="text-underline"><img src="images/tool-underline.png" /></div>
+                                
+                            	<div class="button-type text-place active" id="text-align-left"><img src="images/tool-align-left.png" /></div>
+                            	<div class="button-type text-place" id="text-align-center"><img src="images/tool-align-center.png" /></div>
+                            	<div class="button-type text-place" id="text-align-right"><img src="images/tool-align-right.png" /></div>
+                                
+                                <select class="tool-group tool-select" id="text-fontfamily">
+                                    <option value="Times">Times New Roman</option>
+                                    <option value="Arial">Arial</option>
+                                    <option value="Arial Black">Arial Black</option>
+                                    <option value="Impact">Impact</option>
+                                    <option value="Tahoma">Tahoma</option>
+                                    <option value="Trebuchet MS">Trebuchet MS</option>
+                                    <option value="Verdana">Verdana</option>
+                                </select>
+                                <select class="tool-group tool-select" id="text-fontsize">
+                                    <option value="10">10</option>
+                                    <option value="12">12</option>
+                                    <option value="14">14</option>
+                                    <option value="16">16</option>
+                                    <option value="18">18</option>
+                                    <option value="20">20</option>
+                                    <option value="24">24</option>
+                                </select>
+                                
+                                <button class="picker" id="text-color">
+                                	<div class="selected-color">
+                                    	<div class="displayed-color"></div>
+                                    	<img src="images/drop_down.png" class="drop-icon" />
+                                    </div>
+                                 </button>
+                            </div>
+                        </div> 
+                        
+                        <!--
+                        <div class="tab" id="shape-tab">
+                            <div class="tab-title"><img src="images/shape_icon.png" /></div>
+                            <div class="content">
+                            </div>
+                        </div> -->
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="footer_area">
+                <div id="footer_left">
+                    <ul>
+                        <!-- <li><font color="#1c1d1e">Page 1</font></li> -->
+                        <li>
+                            <select class="tool-group tool-select">
+                                <option value="All">All</option>
+                            </select>
+                        </li>
+                        <!-- <li>
+                            <img src="images/btn_zoomin.png" id="btn_bottom_plus">
+                        </li> -->
+                    </ul>
+                    <ul id="pos_status">
+                        <li>
+                            <img src="images/cursor_pos.png">
+                            <span id="info_pos">0,0</span>
+                        </li>
+                        <li>
+                            <img src="images/icon_resize.png">
+                            <span id="info_size">0 x 0</span>
+                        </li>
+                    </ul>
+                    <!--div class="tool-group pos_abs">
+                        <div class="tool-item"><img src="images/bottom_icon2.png"></div>
+                        <div class="tool-item"><img src="images/bottom_icon3.png"></div>
+                        <div class="tool-item"><img src="images/bottom_icon1.png" class="mgn_top"></div>
+                        <div class="tool-item"><img src="images/bottom_icon4.png"></div>
+                    </div-->
+                </div>
+                <div id="footer_right">
+                    <div id="size_slider">
+                        <img src="images/btn_zoomout.png" id="slider_dec"/>
+                            <div id="slider_body"></div>
+                        <img src="images/btn_zoomin.png"  id="slider_inc"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="right_area">
+            <div id="right_header">
+                <ul>
+                    <li><img src="images/new_theme/icon_layer.png"></li>
+                    <li><h2>Layers</h2></li>
+                    <li><img src="images/new_theme/btn_right_arrow.png"></li>
+                </ul>
+            </div>
+            <div id="right_body">
+                <section id="section_collaboration">
+                    <ul class="right_tab">
+                        <li class="sel"><img id="btn_comments"  src="images/new_theme/btn_comments.png"></li>
+                        <li><img id="btn_people"    src="images/new_theme/btn_people.png"></li>
+                        <li><img id="btn_revision"  src="images/new_theme/btn_right_arrow.png"></li>
+                    </ul>
+                    <div class="right_content">
+                        <p>This is Fulcra version 3.0 of Lorem lpsum. Proin gravida nibh vel velit auctor aliguet.</p>
+                        <textarea placeholder="Enter Email Address"></textarea>
+                        <section class="tool_area">
+                            <img id="btn_select" src="images/new_theme/icon_select.png">
+                            <img id="btn_pin"    src="images/new_theme/icon_pin.png">
+                        </section>
+                        <section class="btn_area">
+                            <h5>Post</h5>
+                            <h3>Cancel</h3>
+                        </section>
+                    </div>
+                </section>
+                <section id="section_layers">
+                    <ul class="right_tab">
+                        <li><h3>Transparency:</h3></li>
+                        <li><div id="slider_transparency"></div></li>
+                        <li>
+                            <section class="group_inc_dec">
+                                <input type="text" id="trans_percent"/>
+                                <button class="btn_inc"></button>
+                                <button class="btn_dec"></button>
+                            </section>
+                        </li>
+                    </ul>
+                    <ul class="right_tools">
+                        <li>Lock:</li>
+                        <li><img class="sel" src="images/new_theme/layer_icon_lock.png"></li>
+                        <li><img src="images/new_theme/layer_icon_move.png"></li>
+                        <li class="f_r"><img src="images/new_theme/layer_icon_recycle.png"></li>
+                        <li class="f_r"><img src="images/new_theme/layer_icon_folder.png"></li>
+                        <li class="f_r"><img src="images/new_theme/layer_icon_file.png"></li>
+                    </ul>
+                    <ul class="right_content"></ul>
+                </section>
+            </div>
+            <div id="right-menus">
+                <ul>
+                    <li><img src="images/new_theme/icon_properties.png"></li>
+                    <li><h2>Properties</h2></li>
+                </ul>
+                <ul>
+                    <li><img src="images/new_theme/icon_attribute.png"></li>
+                    <li><h2>Properties</h2></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="progress_div" style="width: 100%; height: 100%; margin: 0px auto; position:absolute; left:0px; top:0px; z-index:9999;">
+		<div id="my_progress_bar_1" style="position: relative; top: 45%; margin: 0px auto;"></div>
+        <div id="loading_Text" style="position:absolute; left:37%; top:40%; font-size:24px; width:500px; text-align:center;">Loading...</div>
+    </div>
+
+    <div id="chk_unit"></div>
+</body>
+</html>

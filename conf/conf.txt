@@ -1,0 +1,22 @@
+[
+	{
+		id: 'general',
+		title: 'General Basis Shapes',
+		file: './conf/general_shape.txt',
+	},
+	{
+		id: 'class',
+		title: 'Class Diagram',
+		file: './conf/class_shape.txt',
+	},
+	{
+		id: 'activity',
+		title: 'Activity Diagram',
+		file: './conf/activity_shape.txt',
+	},
+	{
+		id: 'sequence',
+		title: 'Sequence Diagram',
+		file: './conf/sequence_shape.txt',
+	}
+]
